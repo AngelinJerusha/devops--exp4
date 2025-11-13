@@ -13,12 +13,10 @@ git add .
 git commit -m "added ci-cd"
 git push
 
-docker login -u angelinjerusha2005
-dckr_pat_26VK4NiYE2Uv8z7w-5rYW9WeWOQ
-
-
 after adding the secrets in github>variables>actions>repo secret
 
 trigger the pipeline
+git add .
 git commit -m "Trigger CI test"
+git push
 
